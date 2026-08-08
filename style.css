@@ -139,7 +139,7 @@ nav.wrap{
 .gallery{
     width:100%;
     max-width:1200px;
-    margin:80px auto;
+    margin:10px auto;
     position:relative;
     display:flex;
     align-items:center;
@@ -150,7 +150,7 @@ nav.wrap{
 .carousel{
     position:relative;
     width:100%;
-    height:520px;
+    height:380px;
 }
 
 .carousel img{
@@ -228,6 +228,8 @@ nav.wrap{
 /* ---------- INSCRIPCIONES ---------- */
 .inscripciones-box{background:var(--ink); border-radius:22px;}
 .inscripciones-inner{padding:56px 40px;}
+
+
 @media(max-width:640px){.inscripciones-inner{padding:40px 22px;}}
 .inscripciones-box .section-head h2, .inscripciones-box .section-head p{color:var(--paper);}
 .inscripciones-box .section-head p{opacity:0.72; font-size:1rem;}
@@ -292,15 +294,15 @@ footer{border-top:1px solid var(--line); padding:32px 0;}
 .wa-float:hover{transform:scale(1.08);}
 .wa-float svg{width:30px; height:30px; fill:#FFFFFF;}
 
-@media(max-width:768px){
+@media(max-width:600px){
 
 .carousel{
     height:350px;
 }
 
 .carousel img{
-    width:220px;
-    height:220px;
+    width:300px;
+    height:300px;
 }
 
 .arrow{
